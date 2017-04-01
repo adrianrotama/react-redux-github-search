@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "React + Redux GitHub search API project with Material-UI. A simple project that consume several github GET API with auto-search and infinite scrolling function.",
   "author": "Adrian Rotama",
+  "engines": {
+    "node": "6.0.0",
+    "npm": "4.0.3"
+  },
   "dependencies": {
     "axios": "^0.15.3",
     "lodash": "^4.17.4",
