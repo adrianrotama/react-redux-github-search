@@ -1,5 +1,7 @@
 # React + Redux GitHub search API project
 
+Demo on https://react-redux-github-search.herokuapp.com/
+
 A simple project that consume several github GET API, such as :
 
 * `https://api.github.com/search/users?q=xxx&page=xx`: Get a list of user with key and page params 
