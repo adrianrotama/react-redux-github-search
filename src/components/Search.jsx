@@ -80,11 +80,11 @@ class Search extends React.Component {
             <div>
                 <div className={"search-page " + (this.props.totalCount === -1 && !this.state.loading ? ' ' : 'short')}>
                     <div className="flex">
-                        <div>
+                        <div style={{textAlign:'center'}}>
                             <TextField
                                 hintText="Ex: Adrian Rotama"
                                 floatingLabelText="Type Github Account Name here"
-                                className="margin-right-40"
+                                className="text-field-search"
                                 onChange={this.handleChangeTextfield}
                             />
                             

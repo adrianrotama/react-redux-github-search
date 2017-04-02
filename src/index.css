@@ -15,6 +15,7 @@ body {
     padding: 20px;
     color: #FFF;
     z-index: 99;
+    -webkit-backface-visibility: hidden;
 }
 
 .main-content{
@@ -87,6 +88,15 @@ a{
 .search-page.short{
     height: 150px;
 }
+.text-field-search{
+    margin-bottom:20px;
+}
+@media only screen and (min-width: 383px) {
+    .text-field-search{
+        margin-bottom:0;
+        margin-right: 40px;
+    }
+}
 
 .user-page{
     min-height: calc(100vh - 61px);
@@ -94,10 +104,12 @@ a{
 }
 .side-menu{
     position: fixed;
+    -webkit-backface-visibility: hidden;
     background-color: #394165;
     color: white;
     width: 200px;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
     padding:20px;
     font-size: 12px;
     text-align: center;
@@ -108,7 +120,9 @@ a{
 }
 .tab-header{
     position: fixed;
+    -webkit-backface-visibility: hidden;
     width: calc(100vw - 240px);
+    min-width: 360px;
     z-index: 99;
 }
 .tab-item-container{
